@@ -39,17 +39,18 @@ h1 {
   display: table;
 }
 
-.navigation a {
+.navigation li {
   display: table-cell;
   padding: 10px;
 }
 
-.navigation a li {
+.navigation li a {
   vertical-align: middle;
   display: table;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  text-decoration: none;
 }
 
 h3 {
@@ -72,4 +73,50 @@ h3 {
 
 .flex-child:first-child {
   margin-right: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url(bilder/Header-Background.jpg);
+  text-align: center;
+}
+.inner_footer {
+  display: block;
+  margin: 10px auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner_footer .footer_third {
+  width: calc(33%);
+  float: left;
+  float: right;
+  height: 100%;
+}
+
+.inner_footer .footer_third:last-child {
+  margin-right: 10px;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  text-decoration: none;
 }
