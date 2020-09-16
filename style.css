@@ -1,5 +1,5 @@
 body {
-  background-image: url(bilder/stadv3.jpeg);
+  background-image: url(bilder/wp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0%;
@@ -11,6 +11,8 @@ body {
   height: 70px;
   display: block;
   background-image: url(bilder/Header-Background.jpg);
+  border-bottom: 2px rgb(47, 48, 99);
+  border-bottom-style: solid;
 }
 
 .inner_header {
@@ -56,11 +58,12 @@ h1 {
 h3 {
   font-size: 35px;
   text-align: center;
+  color: black;
 }
 
 .flex-container {
   display: flex;
-  padding: 3%;
+  padding: 2%;
   margin: 1%;
 }
 
@@ -127,4 +130,15 @@ h3 {
   margin-right: auto;
   width: 50%;
   color: white;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.432);
+  font-size: 20px;
+  padding: 1%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: black;
 }
