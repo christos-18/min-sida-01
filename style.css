@@ -1,7 +1,9 @@
 body {
-  background-image: url(bilder/wp.jpg);
+  background-image: url(bilder/väg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   padding: 0%;
   margin: 0%;
 }
@@ -11,7 +13,7 @@ body {
   height: 70px;
   display: block;
   background-image: url(bilder/Header-Background.jpg);
-  border-bottom: 2px rgb(47, 48, 99);
+  border-bottom: 2px rgb(110, 82, 19);
   border-bottom-style: solid;
 }
 
@@ -86,6 +88,8 @@ h3 {
   box-sizing: border-box;
   background-image: url(bilder/Header-Background.jpg);
   text-align: center;
+  border-top: 2px rgb(110, 82, 19);
+  border-top-style: solid;
 }
 .inner_footer {
   display: block;
