@@ -25,12 +25,12 @@
               </div>
 
               <ul class="navigation">
-                <li><a href="Christos-potamitis-Hem.html">Hem</a></li>
-                <li><a href="#om-mig-intressen">Om mig</a></li>
-                <li><a href="#hobby-annat">Hobby</a></li>
+                <li><a href="Christos-potamitis-Hem.html">ϟ Hem</a></li>
+                <li><a href="#om-mig-intressen">웃 Om mig</a></li>
+                <li><a href="#hobby-annat">⚽ Hobby</a></li>
                 <li>
                   <a href="Christos-Potamitis-Kontaktuppgifter.html"
-                    >Kontaktuppgifter</a
+                    >☎ Kontaktuppgifter</a
                   >
                 </li>
               </ul>
@@ -38,6 +38,22 @@
           </div>
         </article>
       </nav>
+      <script>
+        window.onscroll = function () {
+          myFunction();
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
     </header>
 
     <article id="om-mig-intressen">
