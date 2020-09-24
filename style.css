@@ -29,6 +29,15 @@ body {
   display: table;
   float: left;
 }
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
 h1 {
   color: white;
   display: table-cell;
@@ -88,7 +97,7 @@ h3 {
 }
 
 .flex-child:first-child {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .center {
@@ -97,7 +106,7 @@ h3 {
   margin-right: auto;
   width: 50%;
   color: white;
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(110, 82, 19);
   background-color: rgba(19, 16, 16, 0.712);
   font-size: 20px;
   padding: 1%;
