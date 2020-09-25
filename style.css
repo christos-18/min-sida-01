@@ -64,6 +64,11 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.navigation li:hover a {
+  padding-right: 10px;
 }
 
 .sticky {
@@ -85,8 +90,7 @@ h3 {
 .flex-container {
   display: flex;
   padding: 2%;
-  margin: 2%;
-  margin-top: 5;
+  margin: 5%;
 }
 
 .flex-child {
@@ -100,6 +104,28 @@ h3 {
   margin-right: 50px;
 }
 
+.features {
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.features figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.features figure img {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  width: 200px;
+  height: 200px;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -110,7 +136,7 @@ h3 {
   background-color: rgba(19, 16, 16, 0.712);
   font-size: 20px;
   padding: 1%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 
