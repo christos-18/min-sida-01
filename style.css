@@ -1,5 +1,5 @@
 body {
-  background-image: url(bilder/väg.jpg);
+  background-image: url(bilder/nyc3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -136,9 +136,9 @@ h3 {
   background-color: rgba(19, 16, 16, 0.712);
   font-size: 20px;
   padding: 1%;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 10%;
-  width: 900px;
+  width: 1050px;
 }
 
 .footer {
