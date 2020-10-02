@@ -124,6 +124,7 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   width: 300px;
+  max-height: 300px;
 }
 
 .features figure img {
@@ -132,10 +133,11 @@ h3 {
   box-shadow: gray 0 0 10px;
   width: 300px;
   height: 300px;
+  transition: 0.1s;
 }
 
-.features figure img :hover {
-  padding-top: 70px;
+.features :hover {
+  margin-top: 10px;
 }
 
 .footer {
